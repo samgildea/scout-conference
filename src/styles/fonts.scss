@@ -1,0 +1,37 @@
+@import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+
+@font-face {
+  font-family: "FreightText-SemiBold";
+  src: url("../styles/FreightTextProSemibold-Italic.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "FreightText-Regular";
+  src: url("../styles/FreightTextProLight-Regular.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: "FreightText-Medium-Italic";
+  src: url("../styles/FreightTextProMedium-Italic.ttf") format("truetype"); /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: "Epilogue", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+}
+
+// @font-face {
+//   font-family: "ELight", sans-serif;
+//   src: url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+// }
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
